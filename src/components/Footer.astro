@@ -1,0 +1,28 @@
+<script type="text/javascript" src="https://gw.alipayobjects.com/os/k/h3/heti-addon.min.js"></script>
+<script type="text/javascript" src="https://gw.alipayobjects.com/os/k/3j/lozad.min.js"></script>
+
+<!-- This is intentionally inlined to avoid FOUC -->
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function () {
+
+    // 图片懒加载
+    const observer = lozad('.lozad', {
+      loaded: function (el) {
+        el.alt = el.getAttribute('data-alt');
+      },
+    });
+    observer.observe();
+
+    // 字体间距优化
+    const heti = new Heti('.heti');
+    heti.autoSpacing();
+
+    // 链接外跳
+    const links = document.links;
+    for (let i = 0; i < +links.length; i++) {
+      if (links[i].hostname != window.location.hostname ) {
+        links[i].target = '_blank';
+      }
+    }
+  });
+</script>
