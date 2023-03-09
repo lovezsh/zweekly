@@ -1,6 +1,9 @@
 # zweekly
 
-> 记录子舒的周刊，欢迎订阅，也欢迎 [推荐](https://github.com/lovezsh/zweekly/issues/) 你的好东西。
+> 记录子舒的周刊，欢迎订阅，也欢迎[推荐](https://github.com/lovezsh/zweekly/issues/)你的好东西。模板来自潮流周刊。
+
+ 网站：https://zweekly.vercel.app/ 
+
 
 * [第 05 期 - 使用css写出精致的UI小组件](https://zweekly.vercel.app/posts/05-使用css写出精致的UI小组件)
 * [第 04 期 - chatGPT3.5API发布](https://zweekly.vercel.app/posts/04-chatGPT3.5API发布)
