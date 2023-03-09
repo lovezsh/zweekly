@@ -12,7 +12,7 @@ def fetch_ci_time(filePath):
 
 if __name__ == "__main__":
   readmefile=open('README.md','w')
-  readmefile.write("# zweekly\n\n> 记录子舒的周刊，欢迎订阅，也欢迎[推荐](https://github.com/lovezsh/zweekly/issues/)你的好东西。模板来自潮流周刊。\n\n > 网站：https://zweekly.vercel.app/ \n\n")
+  readmefile.write("# zweekly\n\n> 记录子舒的周刊，欢迎订阅，也欢迎[推荐](https://github.com/lovezsh/zweekly/issues/)你的好东西。模板来自潮流周刊。\n\n > 网站：https://zweekly.zsh.im/ \n\n")
   recentfile=open('RECENT.md','w')
 
   for root, dirs, filenames in os.walk('./src/pages/posts'):
@@ -22,7 +22,7 @@ if __name__ == "__main__":
       if name.endswith('.md'):
         filepath = urllib.parse.quote(name)
         oldTitle = name.split('.md')[0]
-        url   = 'https://zweekly.vercel.app/posts/' + oldTitle
+        url   = 'https://zweekly.zsh.im/posts/' + oldTitle
         title = '第 ' + oldTitle.split('-')[0] + ' 期 - ' + oldTitle.split('-')[1]
         readmeMd= '* [{}]({})\n'.format(title, url)
         dateList = ["2022-10-10","2022-09-26","2022-09-12","2022-09-05","2022-08-29"]
