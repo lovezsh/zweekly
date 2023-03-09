@@ -256,12 +256,6 @@ blockquote blockquote {
   margin-block-start: 0.6em;
 }
 
-.heti h1,
-.heti h2,
-.heti h3 {
-  letter-spacing: 0.05em;
-}
-
 .heti h1+h2,
 .heti h2+h3,
 .heti h3+h4,
