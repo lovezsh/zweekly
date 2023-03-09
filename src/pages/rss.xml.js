@@ -16,7 +16,7 @@ export const get = () =>
   rss({
     title: 'zweekly',
     description: '记录子舒的周刊',
-    site: 'https://zweekly.netlify.app/',
+    site: 'https://zweekly.vercel.app/',
     customData: `<image><url>https://gw.alipayobjects.com/zos/k/qv/coffee-2-icon.png</url></image>`,
     items: posts.map((item) => {
       const url = item.url;
