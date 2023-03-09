@@ -34,7 +34,6 @@ jobs:
         cat README.md
     - name: Commit and push if changed
       run: |-
-        npm run build
         git diff
         git config --global user.email "shuxhan@163.com"
         git config --global user.name "lovezsh-bot"
