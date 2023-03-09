@@ -5,7 +5,7 @@ export const SITE = {
   keywords: '周刊,子舒',
   icon: 'https://cdn.zburu.com/favicon.ico',
   pic: 'https://cdn.zburu.com/author1.png',
-  homePage: 'https://zweekly.netlify.app/',
+  homePage: 'https://zweekly.vercel.app/',
   blogPage: 'https://zburu.com/',
   githubId: 'lovezsh',
   repo: 'lovezsh/zweekly'
