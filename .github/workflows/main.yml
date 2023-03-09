@@ -41,3 +41,14 @@ jobs:
         git add -A
         git commit -m "Updated content" || exit 0
         git push
+        
+    - name: Install dependencies
+      run: npm install
+    - name: Build project
+      run: npm run build
+    - name: Deploy to branch
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.DEPLOY_KEY }}
+        publish_dir: ./build
+        publish_branch: deploy
