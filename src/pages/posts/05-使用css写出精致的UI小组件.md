@@ -44,3 +44,7 @@ https://tabler-icons.io/
 
 ![image](https://user-images.githubusercontent.com/65840178/223887928-8e489bda-3ecf-4a91-b30d-3f460e4222dc.png)
 
+## 文章
+
+1. https://babyyoung.gitbook.io/english-level-up-tips/  英语进阶指南，高效学习英语。
+2. https://vue-js.com/learn-vue/start/  Vue源码系列，适合入门研究源码。
