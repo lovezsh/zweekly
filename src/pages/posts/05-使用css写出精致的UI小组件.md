@@ -44,6 +44,15 @@ https://tabler-icons.io/
 
 ![image](https://user-images.githubusercontent.com/65840178/223887928-8e489bda-3ecf-4a91-b30d-3f460e4222dc.png)
 
+### 6. Scribble Diffusion
+
+https://scribblediffusion.com/  
+https://github.com/replicate/scribble-diffusion  
+
+基于机器学习模型，可以自己画一个草图，然后附带一些描述，最后会生成相关的图像，质量和功能都挺不错的。
+
+![image](https://user-images.githubusercontent.com/65840178/224261272-7e0deaa0-9887-4b3a-a690-efc210d03f6a.png)
+
 ## 文章
 
 1. https://babyyoung.gitbook.io/english-level-up-tips/  英语进阶指南，高效学习英语。
