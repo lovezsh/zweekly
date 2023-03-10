@@ -165,7 +165,6 @@ blockquote blockquote {
 }
 
 .heti blockquote {
-  margin: 0;
   overflow: hidden;
   box-sizing: border-box;
   padding: 0 15px;
