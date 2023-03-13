@@ -1,0 +1,30 @@
+<img src="https://user-images.githubusercontent.com/65840178/224586576-a946c7a6-bb3a-40a2-82c9-b638291b102b.png"/>  
+
+> 每周分享一些软件，程序，文章等。（3月5日-3月11日）
+
+## 程序
+
+### 1. NotionNext
+
+https://github.com/tangly1024/NotionNext
+
+一个使用 NextJS + Notion API 实现的，部署在 Vercel 上的静态博客系统。为Notion和所有创作者设计。
+
+![image](https://user-images.githubusercontent.com/65840178/224586403-2e39885c-17df-4cb2-bd12-7b4cde787db0.png)
+
+
+### 2. Notion Blog
+
+https://github.com/ijjk/notion-blog
+
+一个 Next.js 网站使用新的 SSG 支持和一个支持概念的博客。
+
+![image](https://user-images.githubusercontent.com/65840178/224586538-2d8b47f8-87e5-4781-82b5-d5e687ced921.png)
+
+### 3. Next.js Notion Starter Kit
+
+https://github.com/transitive-bullshit/nextjs-notion-starter-kit
+
+使用 Next.js 和 Vercel 在几分钟内部署您自己的基于概念的网站。
+
+![image](https://user-images.githubusercontent.com/65840178/224586576-a946c7a6-bb3a-40a2-82c9-b638291b102b.png)
